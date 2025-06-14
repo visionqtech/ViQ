@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: "/visionq-site/",
+  base: "/",
   build: {
     outDir: 'dist'
   }
