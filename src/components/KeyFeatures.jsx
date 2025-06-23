@@ -94,7 +94,7 @@ export default function KeyFeatures() {
                 >
 
                     {/* Overlay Content */}
-                    <div className="flex justify-between gap-5 bg-white  p-6 md:p-10 ">
+                    <div className="flex md:flex-row flex-col items-center justify-between gap-5 bg-white  p-6 md:p-10 ">
                         <div className="space-y-5">
                             <h3 className="text-2xl md:text-3xl font-bold text-gray-800">
                                 {selected.title}
@@ -102,7 +102,7 @@ export default function KeyFeatures() {
                             <p className="text-gray-600 text-justify italic">{selected.description1}</p>
                             <p className="text-gray-700 text-justify">{selected.description2}</p>
                         </div>
-                        <img src={selected.image} className="h-70 w-70" alt="" />
+                        <img src={selected.image} className="h-65 w-65" alt="" />
                     </div>
                 </div>
             </div>

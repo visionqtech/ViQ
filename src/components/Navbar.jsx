@@ -32,6 +32,7 @@ export default function Navbar() {
                     <Link to="/" className={linkClasses('/')}>Home</Link>
                     <Link to="/about" className={linkClasses('/about')}>About</Link>
                     <Link to="/service" className={linkClasses('/service')}>Service</Link>
+                    <Link to="/project" className={linkClasses('/project')}>Project</Link>
                     <Link to="/career" className={linkClasses('/career')}>Career</Link>
                     <Link to="/contact" className={linkClasses('/contact')}>Contact</Link>
                 </ul>
@@ -51,6 +52,7 @@ export default function Navbar() {
                     <Link to="/" className={linkClasses('/')} onClick={() => setMenuOpen(false)}>Home</Link>
                     <Link to="/about" className={linkClasses('/about')} onClick={() => setMenuOpen(false)}>About</Link>
                     <Link to="/service" className={linkClasses('/service')} onClick={() => setMenuOpen(false)}>Service</Link>
+                    <Link to="/project" className={linkClasses('/project')} onClick={() => setMenuOpen(false)}>Project</Link>
                     <Link to="/career" className={linkClasses('/career')} onClick={() => setMenuOpen(false)}>Career</Link>
                     <Link to="/contact" className={linkClasses('/contact')} onClick={() => setMenuOpen(false)}>Contact</Link>
                 </div>

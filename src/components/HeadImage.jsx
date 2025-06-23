@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import bgImg from '../assets/images/bg-head.jpg'
 
-export default function HeaderImage({ page }) {
+export default function HeaderImage({ page, page2 }) {
     return (
         <>
             <div
@@ -14,7 +14,7 @@ export default function HeaderImage({ page }) {
                     <div className=" text-white px-4">
                         <h1 className="text-2xl md:text-4xl font-bold mb-4">{page}</h1>
                         <p className="text-md md:text-lg text-white py-1 font-semibold">
-                            <Link to={'/'} className='hover:underline hover:text-red-500'>Home</Link> / {page}
+                            <Link to={'/'} className='hover:underline hover:text-red-500'>Home</Link> / {page} <span className='text-sm'>{page2 && `/ ${page2}`}</span>
                         </p>
                     </div>
                 </div>

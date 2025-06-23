@@ -11,6 +11,8 @@ import Careers from './pages/Careers'
 import Contact from './pages/Contact'
 import ScrollTopButton from './components/ScrollTopButton'
 import ChatPopup from './components/ChatPopup'
+import Project from './pages/Project'
+import ToolDetail from './components/ToolDetail'
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
           <Route path='/service' element={<Services />} />
           <Route path='/career' element={<Careers />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/project' element={<Project />} />
+          <Route path='/tools/:id' element={<ToolDetail />} />
         </Routes>
         {/* <ChatPopup /> */}
         <ScrollTopButton />
