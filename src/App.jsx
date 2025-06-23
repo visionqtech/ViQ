@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className=''>
-      <BrowserRouter>
+      <BrowserRouter  basename="/ViQ">
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
