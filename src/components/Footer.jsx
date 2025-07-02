@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10">
                 {/* Company Info */}
                 <div className="flex flex-col gap-5 text-base leading-relaxed">
-                    <div>
+                    {/* <div>
                         <h1 className="text-4xl font-bold mb-4 text-red-500">VisionQ</h1>
                         <p>
                             VisionQ Technologies <br />
@@ -16,7 +16,18 @@ export default function Footer() {
                             Mumbai, Maharashtra - 421306
                         </p>
                         <p className="mt-3"><strong>Phone:</strong> +91 70393 76572</p>
-                        <p><strong>Email:</strong> info@visionqtechnology.com</p>
+                        <p><strong>Email us:</strong> info@visionqtechnology.com</p>
+                    </div> */}
+                    <div>
+                        <h1 className="text-4xl font-bold mb-2 text-red-500">VisionQ</h1>
+                        <p className="font-semibold mb-2">
+                            Innovating remotely,<br /> empowering globally.
+                        </p>
+                        {/* <p className="mt-3"><strong>Phone:</strong> +91 70393 76572</p> */}
+                        <p><strong>Email us:</strong> info@visionqtechnology.com</p>
+                        <p className="my-2">
+                            We are a 100% remote-first company based in India, working with global clients across time zones.
+                        </p>
                     </div>
                     <div className="flex gap-4 mt-4">
                         <a href="#" className="hover:text-red-400 transition"><BsTwitterX size={24} /></a>
