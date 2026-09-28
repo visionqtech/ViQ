@@ -15,7 +15,6 @@ export default function Footer() {
                             Chinchapada, Kalyan East,<br />
                             Mumbai, Maharashtra - 421306
                         </p>
-                        <p className="mt-3"><strong>Phone:</strong> +91 70393 76572</p>
                         <p><strong>Email:</strong> info@visionqtechnology.com</p>
                     </div>
                     <div className="flex gap-4 mt-4">

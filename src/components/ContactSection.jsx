@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import ContactForm from "./ContactForm";
 
 export default function ContactSection() {
@@ -22,17 +22,6 @@ export default function ContactSection() {
                                 Chinchapada, Kalyan East,<br />
                                 Mumbai, Maharashtra - 421306
                             </p>
-                        </div>
-                    </div>
-
-                    {/* Call Us Card */}
-                    <div className="flex items-center gap-4 bg-gray-50 p-5 rounded-xl shadow-xl hover:shadow-md transition">
-                        <div className="bg-gradient-to-br from-red-500 to-red-700 text-white p-4 rounded-full">
-                            <Phone size={28} />
-                        </div>
-                        <div>
-                            <h4 className="text-lg font-semibold text-gray-800 mb-1">Call Us</h4>
-                            <p className="text-gray-600">+91 70393 76572</p>
                         </div>
                     </div>
 
